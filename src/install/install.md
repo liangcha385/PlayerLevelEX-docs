@@ -9,24 +9,28 @@ tag:
   - 插件安装
 ---
 
-本篇讲述如何正确下载插件
+本篇讲述如何正确下载并安装插件
 
 <!-- more -->
+
+::: caution
+1. 初次加载插件时会将所有玩家的等级设置为0，请提前对现有的玩家等级进行存档以防数据丢失。
+2. 插件的运行机制为"每当经验变更时将玩家的等级与数据文件同步"，本质上相当于用经验货币购买等级。在使用PlayerLevel时，不会产生等级丢失情况。
+3. 原版经验槽进度与"经验货币/升级所需经验"同步，当玩家拥有的经验溢出时该进度将固定为满。
+4. 玩家达到最高等级后经验槽进度固定为满。
+:::
 
 [[toc]]
 
 ### 下载
-::: tip 
 你可以在此处获取下载链接  
-[mcbbs](https://www.mcbbs.net/thread-1483100-1-1.html) 
-![github](https://img.shields.io/badge/https%3A%2F%2Fgithub.com%2FCPJiNan%2FPlayerLevel?style=for-the-badge&logo=github&logoColor=%23000000&label=issue&labelColor=%23000000&color=%238B658B
-)  
+[mcbbs](https://www.mcbbs.net/thread-1483100-1-1.html)  
+[github](https://github.com/CPJiNan/PlayerLevel)  
 
 同样，你可能需要以下链接  
-[爱发电链接](https://afdian.net/a/CPJiNan) 
-[加入QQ群](https://qm.qq.com/cgi-bin/qm/qr?k=KHWK457uqBPceUIxr_9IKhdX-SSpCEl9&jump_from=webapi&authKey=wRg7BmMgCQqcbaKirMUCZJm5dkoKkdRG7udpsfSJD66Tx2pDn/3UYB7ZG8qhyBXh) 
-[提交issue](https://github.com/CPJiNan/PlayerLevel/issues) 
-:::  
+[爱发电链接](https://afdian.net/a/CPJiNan)  
+[加入QQ群](https://qm.qq.com/cgi-bin/qm/qr?k=KHWK457uqBPceUIxr_9IKhdX-SSpCEl9&jump_from=webapi&authKey=wRg7BmMgCQqcbaKirMUCZJm5dkoKkdRG7udpsfSJD66Tx2pDn/3UYB7ZG8qhyBXh)  
+[提交issue](https://github.com/CPJiNan/PlayerLevel/issues)  
 
 ### 安装
 ::: tip 
@@ -55,3 +59,7 @@ PlayerLevel 不支持==一切形式==的热重载，
 :::
 
 重新启动后在控制台输入 /plugins 指令，若 PlayerLevel 插件为绿色且功能正常即为安装成功 :tada:  
+
+### 配置插件
+
+详情见 [配置文件](/demo/config.html)

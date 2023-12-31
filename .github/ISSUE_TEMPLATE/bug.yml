@@ -1,0 +1,23 @@
+name: 文档错误修复
+description: 文档出错了？可以在此提交错误报告
+assignees: 
+  - liangcha385
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请详细说明文档中的错误，最好说清楚在哪里出错，为何出错
+  - type: textarea
+    attributes:
+      label: 何处出错
+      description: 只要能说清楚哪里出错怎么都行
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 修改意见
+      description: 把你认为正确的内容写进去就行
+    validations:
+      required: true

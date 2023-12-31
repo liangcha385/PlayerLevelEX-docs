@@ -62,4 +62,4 @@ PlayerLevel 不支持==一切形式==的热重载，
 
 ### 配置插件
 
-详情见 [配置文件](PlayerLevelEX-docs/demo/config.html)
+详情见 [配置文件](https://liangcha385.github.io/PlayerLevelEX-docs/demo/config.html)

@@ -14,7 +14,7 @@ export default hopeTheme({
 
   //logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "CPJiNan/PlayerLevel",
+  repo: "liangcha385/PlayerLevelEX-docs",
 
   docsDir: "src",
 
@@ -35,9 +35,9 @@ export default hopeTheme({
   },
 
   // page meta
-  //metaLocales: {
-  //  editLink: "在 GitHub 上编辑此页",
-  //},
+  metaLocales: {
+    editLink: "在 GitHub 上编辑此页",
+  },
 
   plugins: {
     // You should generate and use your own comment service

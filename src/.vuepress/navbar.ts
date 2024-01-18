@@ -4,4 +4,5 @@ export default navbar([
   "/",
   "/demo/",
   "/install/",
-]);
+  "/developer/"
+])

@@ -17,5 +17,12 @@ export default sidebar({
       link: "demo/",
       children: "structure",
     },
+    {
+      text: "开发者专栏",
+      icon: "laptop-code",
+      prefix: "developer/",
+      link: "developer/",
+      children: "structure",
+    },
   ],
 });

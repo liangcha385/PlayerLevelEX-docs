@@ -64,3 +64,6 @@ footer: PlayerLevelEX | 一款适合RPG服务器的玩家等级控制系统
 #### 友情链接
 PlayerLevel-sub —— 让PlayerLevel兼容AP经验加成吧！  
 <https://www.mcbbs.net/thread-1477651-1-1.html>
+
+AttributeLevel —— 让你的PlayerLevel支持AP/SX属性加成！  
+<https://www.mcbbs.net/thread-1484550-1-1.html>
